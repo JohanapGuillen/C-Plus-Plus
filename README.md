@@ -1,6 +1,6 @@
 # C-Plus-Plus
 
 ```
-c++:code/DataTypeNamingConv.cpp
+C++:code/DataTypeNamingConv.cpp
 
 ```
