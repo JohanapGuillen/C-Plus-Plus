@@ -1,6 +1,6 @@
 # C-Plus-Plus
 
 ```
-c++:code/DataTypeNamingConv.cpp
+{Rcpp, file = 'DataTypeNamingConv.cpp'}
 
 ```
