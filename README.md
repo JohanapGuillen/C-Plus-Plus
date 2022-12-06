@@ -168,7 +168,7 @@ There are five types of scopes in C++; function scope, file scope, block scope, 
 
 [Interactive code to Loops and Functions can be found HERE, Download and Run](https://github.com/JohanapGuillen/C-Plus-Plus/blob/6fdafbe45c85224ee7d490fc1d8c8bb419070e77/code/plp4.cpp)
 
-Classes and Inheritance
+## Classes and Inheritance
 
 Inheritance → An important Object-Oriented Programming feature that “The capability of a class to derive properties and characteristics from another class” [Geeks for Geeks Inheritance](https://www.geeksforgeeks.org/inheritance-in-c/)
 
