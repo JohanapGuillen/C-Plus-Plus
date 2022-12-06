@@ -177,18 +177,23 @@ Inheritance is the process in which new classes are derived from existing classe
 C++ has multiple types of inheritance. The 5 types are Single Inheritance, Multiple Inheritance, Multilevel Inheritance, Hierarchical Inheritance and Hybrid Inheritance. 
 
 Single Inheritance refers to the derived class inheriting only 1 base class.
+
 ![single](https://user-images.githubusercontent.com/85963991/205782740-b8275f4d-aa19-4757-bab9-c020e9a3018c.png)
 
 Multiple Inheritance refers to a child class inheriting from multiple parent classes.
+
 ![multiple](https://user-images.githubusercontent.com/85963991/205782807-54f2d3f6-51a0-48b7-8d69-198bd2a3000e.png)
 
 Multilevel Inheritance refers to deriving a class from a derived class.
+
 ![multilevel](https://user-images.githubusercontent.com/85963991/205783975-3e6cf6db-8101-4eb2-9ea3-d72e9880008c.png)
 
 Hierarchical Inheritance is when more than 1 child class inherits from the base class.
+
 ![hierarchical](https://user-images.githubusercontent.com/85963991/205784033-295dcc82-854c-4606-b4eb-7f7dfe1ad7da.png)
 
 Hybrid Inheritance is the combination of more than 1 type of inheritance.
+
 ![hybrid](https://user-images.githubusercontent.com/85963991/205784075-21d72e1e-a529-4d80-ad93-21c31df2983a.png)
 
 With inheritance, we can not ignore the overriding of data. Overriding allows us to use functions that are present in the parent class, in the child class. Redefining the functions or methods in the derived class allows the main function to call the definition of the derived class over the definition in the base class. Doing this saves memory, increases code consistency and enhances code reusability. It is an extremely useful feature to be able to reuse the same name function in an efficient and clean manner with different operations for stronger code.
