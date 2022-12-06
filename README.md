@@ -212,4 +212,4 @@ C++ has standard methods for functions that serve a similar purpose across all o
 *Unique() gets rid of duplicate list elements
 *Splice() transfers elements from one list to another
 
-Additionally, C++’s standard library functions include header files while the built-in functions range from mathematical functions to character functions. [The standard library functions for C++ can be found here.] (http://www.cppforschool.com/tutorial/libraryfunc.html)
+Additionally, C++’s standard library functions include header files while the built-in functions range from mathematical functions to character functions. [The standard library functions for C++ can be found here.](http://www.cppforschool.com/tutorial/libraryfunc.html)
