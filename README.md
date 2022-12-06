@@ -168,3 +168,43 @@ There are five types of scopes in C++; function scope, file scope, block scope, 
 
 [Interactive code to Loops and Functions can be found HERE, Download and Run](https://github.com/JohanapGuillen/C-Plus-Plus/blob/6fdafbe45c85224ee7d490fc1d8c8bb419070e77/code/plp4.cpp)
 
+Classes and Inheritance
+
+Inheritance → An important Object-Oriented Programming feature that “The capability of a class to derive properties and characteristics from another class” [Geeks for Geeks Inheritance](https://www.geeksforgeeks.org/inheritance-in-c/)
+
+Inheritance is the process in which new classes are derived from existing classes. These classes are know as “child class” while the existing class is the “parent class”. In biological terms, the classes “child” and “parent” represent a relationship in which the “child class” inherits from the “parent trap”. This means the new classes take in the properties of the existing class and are able to add features and properties of its own but the new class can not change the existing class. That being said, the features added to the “child class” do not affect the “parent class”. “Child class” and “Parent class” are also known as “Sub class” and “Super class” in which the “Sub class” inherits from the “Super class”.
+
+C++ has multiple types of inheritance. The 5 types are Single Inheritance, Multiple Inheritance, Multilevel Inheritance, Hierarchical Inheritance and Hybrid Inheritance. 
+
+Single Inheritance refers to the derived class inheriting only 1 base class.
+![single](https://user-images.githubusercontent.com/85963991/205782740-b8275f4d-aa19-4757-bab9-c020e9a3018c.png)
+
+Multiple Inheritance refers to a child class inheriting from multiple parent classes.
+![multiple](https://user-images.githubusercontent.com/85963991/205782807-54f2d3f6-51a0-48b7-8d69-198bd2a3000e.png)
+
+Multilevel Inheritance refers to deriving a class from a derived class.
+![multilevel](https://user-images.githubusercontent.com/85963991/205783975-3e6cf6db-8101-4eb2-9ea3-d72e9880008c.png)
+
+Hierarchical Inheritance is when more than 1 child class inherits from the base class.
+![hierarchical](https://user-images.githubusercontent.com/85963991/205784033-295dcc82-854c-4606-b4eb-7f7dfe1ad7da.png)
+
+Hybrid Inheritance is the combination of more than 1 type of inheritance.
+![hybrid](https://user-images.githubusercontent.com/85963991/205784075-21d72e1e-a529-4d80-ad93-21c31df2983a.png)
+
+With inheritance, we can not ignore the overriding of data. Overriding allows us to use functions that are present in the parent class, in the child class. Redefining the functions or methods in the derived class allows the main function to call the definition of the derived class over the definition in the base class. Doing this saves memory, increases code consistency and enhances code reusability. It is an extremely useful feature to be able to reuse the same name function in an efficient and clean manner with different operations for stronger code.
+
+An example of Hierarchical inheritance can be found in the plp5 code. Feel free to download and run.
+
+The different types of inheritance requires careful consideration. Some languages do not support multiple inheritance because of its override feature that poses a threat if used carelessly. Say for example that more than one base class has the same function but the derived class does not override that function. The matter at hand would then be, which function is selected by the program or how does the program know which function to utilize. However, the program does not know, and since as a programmer we do not tell it if we do not override in the derived class, then we get a compile error. 
+
+[More on inheritance can be found here.](https://www.programiz.com/cpp-programming/multilevel-multiple-inheritance)
+
+As an object-oriented program, C++ does of course support objects, providing the whole set of features to the language such as inheritance, data, methods, virtual functions, etc. Structs are indeed included in those features. Structure is a collection of different data types and structs in C++ are value type. They’re typically used for light-weight objects like shapes or colors. They are also very convenient with linked lists as structs are used to store the data.
+
+C++ has standard methods for functions that serve a similar purpose across all objects. A couple of examples are:
+*swap() which switches the values of 2 variables
+*Reverse () reverses the elements of lists
+*Unique() gets rid of duplicate list elements
+*Splice() transfers elements from one list to another
+
+Additionally, C++’s standard library functions include header files while the built-in functions range from mathematical functions to character functions. [The standard library functions for C++ can be found here.] (http://www.cppforschool.com/tutorial/libraryfunc.html)
